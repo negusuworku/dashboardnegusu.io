@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home · Public Health Emergency Data Platform</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Custom CSS for bigger fonts -->
+  <style>
+  /* Dark/Light toggle button positioning */
+  .bd-mode-toggle { 
+    z-index: 1500; 
+    position: fixed; 
+    bottom: 1rem; 
+    right: 1rem; 
+  }
+
+  /* Make all fonts bigger */
+  body {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+
+  /* Make the navbar title the biggest text on the page */
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  footer {
+    font-size: 1.1rem;
+  }
+
+  /* Justified paragraph text */
+  .justified {
+    text-align: justify;
+  }
+	   /* Justified paragraph text */
+  .justified {
+    text-align: justify;
+    line-height: 1.6; /* improves readability */
+  }
+</style>
+</head>
+<body>
+	<p class="justified"></p>
+
+<!-- Dark/Light Toggle -->
+<div class="dropdown bd-mode-toggle">
+  <button class="btn btn-primary dropdown-toggle" id="bd-theme" data-bs-toggle="dropdown">Toggle Theme</button>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme">
+    <li><button class="dropdown-item" data-bs-theme-value="light">Light</button></li>
+    <li><button class="dropdown-item" data-bs-theme-value="dark">Dark</button></li>
+    <li><button class="dropdown-item active" data-bs-theme-value="auto">Auto</button></li>
+  </ul>
+</div>
+
+<!-- Header -->
+<header class="p-3 mb-3 border-bottom bg-body-tertiary">
+  <div class="container d-flex flex-wrap justify-content-center">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-decoration-none">
+      <i class="bi bi-house fs-3 me-2"></i>
+      <span class="fs-4">Public Health Emergency Data Platform</span>
+    </a>
+    <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="index.html" class="nav-link px-2 link-secondary"><i class="bi bi-house me-1"></i>Home</a></li>
+      <li><a href="about.html" class="nav-link px-2 link-body-emphasis"><i class="bi bi-info-circle me-1"></i>About</a></li>
+      <li><a href="contact.html" class="nav-link px-2 link-body-emphasis"><i class="bi bi-telephone me-1"></i>Contact</a></li>
+      <li><a href="dashboard.html" class="nav-link px-2 link-body-emphasis"><i class="bi bi-bar-chart-line me-1"></i>Dashboard</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="container my-4">
+  <!-- Row 1: Text left / Image right -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6 order-2 order-md-1 mb-3 mb-md-0">
+      <h1>Welcome to the Public Health Emergency Data Platform</h1>
+      <p>The Home page serves as the primary gateway to the Public Health Emergency Data Platform, providing users with immediate access to critical information and analytical tools during public health emergencies. It is designed to offer a clear overview of the platform’s capabilities while enabling fast navigation to dashboards, reports, and data-driven insights.
+
+Through the Home page, users can explore interactive dashboards that visualize real-time and historical emergency data, supporting rapid situational awareness and trend monitoring. These dashboards present key indicators, geographic patterns, and temporal changes that help identify emerging risks and priority areas for response.
+
+The page also provides access to analytical reports that complement visual dashboards with structured interpretation and evidence-based findings. These reports support strategic planning, policy development, coordination, and accountability across public health and humanitarian stakeholders.
+
+In addition, the Home page highlights the platform’s emergency data analytics capacity, emphasizing the transformation of raw data into actionable intelligence. By integrating multiple data sources and analytical methods, the platform supports informed decision-making across preparedness, response, and recovery phases.
+
+Overall, the Home page is designed for usability, accessibility, and trust, ensuring that diverse users can quickly locate reliable information and move from overview to analysis with ease. It establishes the platform as a dependable entry point for public health emergency intelligence and coordinated action.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+      <img src="images/doc72.jpg" class="img-fluid rounded" alt="Home Page Image 1">
+    </div>
+  </div>
+
+  <!-- Row 2: Image left / Text right -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6 order-1 order-md-1">
+      <img src="images/17.png" class="img-fluid rounded" alt="Home Page Image 2">
+    </div>
+    <div class="col-md-6 order-2 order-md-2 mt-3 mt-md-0">
+      <h2>About Our Platform</h2>
+      <p>We provide data-driven insights to support public health emergency preparedness and response. Our platform integrates information from multiple sources—including surveillance, laboratory, demographic, and geographic data—to transform raw numbers into actionable intelligence. Users can monitor trends, identify emerging risks, and pinpoint areas that require immediate attention, enabling rapid and evidence-based decision-making.
+
+Beyond visual dashboards and real-time monitoring, the platform delivers analytical reports that help health authorities, policymakers, and humanitarian stakeholders plan interventions, coordinate resources, and evaluate outcomes. The platform also supports scenario analysis and predictive modeling, allowing stakeholders to anticipate potential challenges and make proactive decisions.
+
+Designed for clarity, usability, and reliability, it ensures that critical information is easy to access and interpret, empowering stakeholders to act efficiently in the face of public health challenges. By combining comprehensive data, advanced analytics, and intuitive presentation, the platform serves as a trusted tool for building resilience, strengthening emergency response systems, and enhancing collaboration across agencies and regions. Its structured approach transforms complex public health data into meaningful insights, enabling a coordinated and effective response to emergencies at all levels.</p>
+    </div>
+  </div>
+
+  <!-- Row 3: Text left / Image right -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6 order-2 order-md-1 mb-3 mb-md-0">
+      <h2>Explore Dashboards</h2>
+      <p>The Explore Dashboards section provides users with interactive visualizations and trend analyses designed to enhance situational awareness during public health emergencies. Serving as a central hub for data exploration, these dashboards integrate multiple datasets—from surveillance and laboratory reporting to demographic and geographic information—allowing users to monitor the status of health events in real time. By presenting complex data in an accessible visual format, the dashboards enable rapid interpretation of trends, hotspots, and emerging risks across regions and populations.
+
+Users can interact with the dashboards to explore time-series trends, geographic distributions, and comparative indicators across multiple parameters. Visualizations include maps showing outbreak intensity, charts tracking case counts over time, and graphs comparing indicators such as healthcare capacity, age distribution, and vaccination coverage. These features provide a comprehensive understanding of the dynamics of public health emergencies, supporting informed decision-making for prevention, response, and resource allocation.
+
+Beyond simple visualization, the dashboards are analytics-driven, incorporating statistical summaries and predictive insights where appropriate. Users can filter data by region, population group, or time period, facilitating targeted analysis and allowing for the identification of high-risk areas and vulnerable populations. These tools empower policymakers, public health professionals, and humanitarian responders to prioritize interventions, deploy resources efficiently, and monitor the effectiveness of ongoing response measures.
+
+The dashboards are designed with usability and accessibility in mind, ensuring that complex information is presented in a clear, intuitive manner. Interactive elements allow users to customize their view, drill down into specific datasets, and export findings for reporting or further analysis. By combining real-time monitoring, historical context, and predictive insights, the Explore Dashboards section transforms raw data into actionable intelligence, supporting both strategic planning and operational decision-making.
+
+In essence, this section of the platform provides a dynamic, visual, and analytical interface for understanding health emergencies across regions. It allows users to track trends, identify risks, and evaluate outcomes efficiently, serving as an essential tool for strengthening preparedness, response, and overall public health resilience. By integrating interactive technology with robust data analytics, the Explore Dashboards feature ensures that stakeholders at all levels have the insight they need to respond effectively to public health emergencies, enabling evidence-based decisions and fostering coordinated, timely action across the health system.</p>
+    </div>
+    <div class="col-md-6 order-1 order-md-2">
+      <img src="images/doc71.jpg" class="img-fluid rounded" alt="Home Page Image 3">
+		<p> A map of Ethiopia that overlays the geographical distribution of Acute Watery Diarrhea (AWD) cases, malarious zones, and flood‑prone areas in 2010 would reveal important patterns of environmental and disease risk convergence. AWD — often associated with outbreaks of cholera and other diarrheal diseases — tends to surge in contexts where water quality and sanitation are compromised, particularly following heavy rainfall and flooding. In Ethiopia, significant AWD outbreaks between 2006 and 2010 were linked to flooding events and elevated rainfall in regions such as Gambella, Dire Dawa, and parts of Oromia and Amhara, with poor sanitation and unsafe water compounding the risk.
+
+At the same time, large portions of the country — more than 75 % of the land area — are considered malarious, particularly areas below 2,000 meters above sea level where Anopheles mosquitoes thrive. Malaria transmission in 2010 was widespread in lowland regions including Oromia, Southern Nations, Nationalities, and Peoples’ Region (SNNPR), Gambella, and Benishangul‑Gumuz, and also responsive to seasonal climatic fluctuations. The malarious zones often overlap with regions susceptible to seasonal flooding and water stagnation, which create abundant mosquito breeding habitats.
+
+When these overlays are examined together, a pattern emerges: flood‑prone districts frequently coincide with both high malaria risk and elevated AWD incidence. This convergence is driven by shared climatic and environmental drivers — especially rainfall variability and extreme weather events — that affect both vector abundance and water infrastructure. Floodwaters can contaminate drinking water sources and disrupt sanitation systems, elevating the risk of AWD infections. Simultaneously, standing water after floods becomes breeding ground for Anopheles mosquitoes, enhancing malaria transmission risk. Such overlapping vulnerabilities underscore the need for integrated public health interventions that address both water‑related and vector‑borne disease risks in climate‑sensitive environments.
+
+For public health planners and emergency response teams, understanding these spatial correlations is critical. It highlights that regions with concurrent exposure to flooding, malaria, and AWD outbreaks require multisectoral preparedness strategies — including strengthening water, sanitation, and hygiene (WaSH) services, enhancing early warning systems for weather‑linked emergencies, and scaling up vector control measures and community education. Recognizing these overlapping risk landscapes allows for targeted allocation of resources and tailored interventions that reduce disease burden and enhance resilience in vulnerable communities. </p>
+    </div>
+  </div>
+
+  <!-- Row 4: Image left / Text right -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6 order-1 order-md-1">
+      <img src="images/doc76.jpg" class="img-fluid rounded" alt="Home Page Image 4">
+		<p class="mt-3">
+		</div>
+    <div class="col-md-6 order-2 order-md-2 mt-3 mt-md-0">
+      <h2>Alert</h2>
+		HIV Prevalence Distribution in Africa (1992–2012): A Public Health Perspective
+Between 1992 and 2012, the African continent experienced profound changes in the distribution and impact of the HIV epidemic, making it the global epicenter of HIV/AIDS. During the early 1990s, HIV prevalence in many African countries rose sharply as the virus spread rapidly through adult populations, with seroprevalence surveys revealing particularly high rates in parts of Southern and Eastern Africa. In urban areas of East Africa, such as Kampala and Kigali, HIV infection rates among adults in the early 1990s were already among the highest recorded globally, reflecting both the intensity and heterogeneity of the epidemic across subregions.
+
+By the mid‑1990s, Southern Africa had emerged as the region with the highest HIV prevalence in the world. Countries such as Swaziland (now Eswatini), Botswana, Lesotho, and South Africa recorded adult prevalence estimates well above 15 %, with some exceeding 25 % at the peak of the epidemic. These high prevalence levels were driven by a complex interplay of biological, behavioral, and structural factors, including high rates of co‑infection with sexually transmitted infections, patterns of sexual partnership, low rates of male circumcision in some populations, and the legacy of social and economic disruption.
+
+In contrast, other subregions such as West and Central Africa exhibited lower overall prevalence rates, though significant variability existed at national and sub‑national levels. For example, West African countries generally reported adult prevalence rates of 1–4 % in the late 1990s and early 2000s, with the largest numbers of people living with HIV concentrated in populous nations like Nigeria. Central Africa also showed diverse prevalence patterns, reflecting different epidemic trajectories and social contexts within the region.
+
+Over the period from 2000 to 2012, the continent witnessed important shifts. National public health strategies, expanded access to antiretroviral therapy (ART), and intensified prevention initiatives gradually slowed the rise of new infections and in some settings began to stabilize or reduce prevalence among adults. By 2012, although millions of Africans continued to live with HIV — with approximately 35.3 million people living with the virus worldwide — progress in prevention and treatment meant that new HIV infections and AIDS‑related deaths had started to decline compared with earlier years. Global estimates show that new HIV infections fell by about one‑third from 2001 to 2012, and deaths from AIDS‑related causes declined by roughly 30 % from their mid‑decade peak, reflecting improved access to life‑saving treatment and care.
+
+Despite these gains, by 2012 the burden of HIV remained concentrated in Southern and Eastern Africa, where prevalence continued to exceed global averages and accounted for a disproportionate share of people living with HIV. This enduring geographic pattern underscored the need for sustained investment in prevention, testing, treatment, and community‑based interventions, particularly in regions where social determinants of health — such as poverty, gender inequality, and limited access to health services — exacerbated vulnerability to infection. These distribution trends from 1992 to 2012 highlight not only the historical trajectory of the epidemic but also the imperative for targeted public health strategies that address both the biological and social drivers of HIV in diverse African contexts.</p>
+    </div>
+    <div class="col-md-6 order-2 order-md-2 mt-3 mt-md-0">
+      <h2>Get Started</h2>
+      <p>The Get Started section provides users with clear guidance on how to begin exploring the Public Health Emergency Data Platform. It is designed as an intuitive entry point, helping both new and returning users quickly access the platform’s core features. From here, users can navigate directly to the Dashboard to view the latest emergency data, including real-time updates, historical trends, and interactive visualizations. The Dashboard serves as the primary tool for monitoring public health events, enabling users to identify emerging risks, track key indicators, and evaluate trends across regions and populations.
+
+In addition to accessing data, the Get Started section guides users to the Contact page, where they can reach out to the platform team for support, inquiries, or collaboration opportunities. This ensures that users are not only able to obtain information but can also connect with experts for clarification, technical assistance, or reporting new data. By providing these straightforward navigation paths, the Get Started section emphasizes usability and accessibility, making it easy for stakeholders—including policymakers, public health professionals, and researchers—to quickly engage with the platform.
+
+Overall, the Get Started section functions as both a launching point and a support gateway, encouraging users to explore the platform’s capabilities, access actionable data, and connect with the team to enhance emergency preparedness and response efforts. It establishes a seamless and guided experience, ensuring that every user can confidently navigate the platform and make the most of its tools and resources.</p>
+		
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="py-3 mt-4 border-top bg-body-tertiary">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; Designed by Mr. Negusu GEBRMICHAEL, 2026 Public Health Emergency Data Platform</p>
+    <ul class="nav col-md-4 justify-content-center mb-0">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      <li class="nav-item"><a href="dashboard.html" class="nav-link px-2 text-body-secondary">Dashboard</a></li>
+    </ul>
+    <p class="col-md-4 mb-0 text-body-secondary text-end">Data platform for public health emergencies</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
